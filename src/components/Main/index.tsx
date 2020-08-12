@@ -1,7 +1,12 @@
+import * as S from './styles'
+
 const Main = () => (
-  <div>
-    <h1>React avançado</h1>
-  </div>
+  <S.Wrapper>
+    <S.Title>Spectrum boilerplate</S.Title>
+    <S.Description>
+      Starter project with Next, React and Typescript!
+    </S.Description>
+  </S.Wrapper>
 )
 
 export default Main
