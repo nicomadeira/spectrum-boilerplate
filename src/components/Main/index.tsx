@@ -1,11 +1,12 @@
 import * as S from './styles'
 
-const Main = () => (
+const Main = ({
+  title = 'Spectrum boilerplate',
+  description = 'Starter project with Next, React and Typescript!'
+}) => (
   <S.Wrapper>
-    <S.Title>Spectrum boilerplate</S.Title>
-    <S.Description>
-      Starter project with Next, React and Typescript!
-    </S.Description>
+    <S.Title>{title}</S.Title>
+    <S.Description>{description}</S.Description>
   </S.Wrapper>
 )
 
